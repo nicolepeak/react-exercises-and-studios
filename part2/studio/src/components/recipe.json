@@ -13,6 +13,38 @@
        "heavy cream",
        "milk"
      ]
-   }
+   }, 
+
+   {
+    "name": "Mexican Chip Dip",
+    "author": "Cupcake",
+    "description": "This Mexican-style chip dip is super easy and delicious",
+    "website": "https://www.allrecipes.com/recipe/234183/mexican-chip-dip/",
+    "recipeImage": "https://www.allrecipes.com/thmb/zZUqKzXNY2eK6LW-yuJkal7JLtI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/1061213-61cd9d67f58c4941a107e832e5a620c8.jpg",
+    "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Sushi_chef_Masayoshi_Kazato_02.JPG/330px-Sushi_chef_Masayoshi_Kazato_02.JPG",
+    "ingredients": [
+      "Corn with peppers",
+      "sour cream",
+      "mayo",
+      "cheddar cheese",
+      "onion"
+    ]
+  }, 
+
+  {
+    "name": "Avo Dip",
+    "author": "Ipek Williamson",
+    "description": "Avocado dip that your friends will love. EAT IT.",
+    "website": "https://www.allrecipes.com/recipe/247199/easy-and-delicious-avocado-dip/",
+    "recipeImage": "https://www.allrecipes.com/thmb/nj0UPK_acDZcWH9USsAE_j3dvUQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/3668183-009933cffdea45879718bce70441b3d6.jpg",
+    "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Sushi_chef_Masayoshi_Kazato_02.JPG/330px-Sushi_chef_Masayoshi_Kazato_02.JPG",
+    "ingredients": [
+      "avocado",
+      "garlic",
+      "salt",
+      "pepper",
+      "sour cream"
+    ]
+  }
  ]
  
