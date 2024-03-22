@@ -1,13 +1,13 @@
 import { useState } from 'react';
 
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://www.spendwithpennies.com/author/holly/";
+   let authorPhoto = "https://www.spendwithpennies.com/wp-content/uploads/2015/02/SWP-Holly-300x300.jpg";
+   let authorName = "Holly Nilsson";
 
    return (
       <div>
-         <img src={authorPhoto} alt = "" style={{objectFit: "contain", borderRadius: "50%"}} />
+         <img src={authorPhoto} alt = "Photo of Holly Nilsson" style={{objectFit: "contain", borderRadius: "50%"}} />
          <div>
             <h3>{authorName}</h3>
             <a href={authorLink}></a> 
@@ -17,7 +17,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ["Lasagna Noodles", "Ground Beef", "Ricotta Cheese", "Pasta Sauce", "Mozzarella Cheese"];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -49,7 +49,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://www.spendwithpennies.com/wp-content/uploads/2020/05/Lasagna-SpendWithPennies-22-1024x1536.jpeg" alt="Photo of Lasagna" className="imageUpdates" style={{width: "200px", objectFit: "contain", borderRadius: "25%"}}/>
    );
 }
 
